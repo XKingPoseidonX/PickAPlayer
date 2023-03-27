@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Button, Stack, Nav, Container, Navbar } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 
 function App() {
@@ -11,21 +12,38 @@ function App() {
   return (
     <>
       <Navbar bg="dark" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">Pick a Player</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">INICIO </Nav.Link>
-            <Nav.Link href="#clubes">LUBES </Nav.Link>
-            <Nav.Link href="#jugadores">UGADORES </Nav.Link>
-            <Nav.Link href="#predicciones">REDICCIONES </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <Container>
+          <Navbar bg="dark">
+            <Container>
+              <Navbar.Brand href="#home">
+                <img
+                  src="/src/assets/soccer.png"
+                  width="60"
+                  height="60"
+                  className="d-inline-block align-top"
+                />
+              </Navbar.Brand>
+            </Container>
+          </Navbar>
+          <Navbar.Brand href="#home"><p class="text-white pt-3">Pick a Player</p></Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav justify-content-end" />
+          <Navbar.Collapse id="basic-navbar-nav justify-content-end">
+            <Nav className="me-auto">
+              <Nav.Link href="#home"><p class="text-white pt-3">INICIO</p></Nav.Link>
+              <Nav.Link href="#clubes"><p class="text-white pt-3">CLUBES</p></Nav.Link>
+              <Nav.Link href="#jugadores"><p class="text-white pt-3">JUGADORES</p></Nav.Link>
+              <Nav.Link href="#predicciones"><p class="text-white pt-3">PREDICCIONES</p> </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-end pl-7">
+                <Navbar.Text class="text-white">
+                  Signed: <a href="#login" class="text-white">Luis Waybell</a>
+                </Navbar.Text>
+              </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
   )
 }
 
-export default App
+export default App;
