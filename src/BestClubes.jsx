@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { Button, Stack, Nav, Container, Navbar } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import './BestClubes.css';
 
 function Tables() {

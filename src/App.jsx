@@ -26,18 +26,18 @@ function App() {
             </Container>
           </Navbar>
           <Navbar.Brand href="#home"><p class="text-white pt-3">Pick a Player</p></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav justify-content-end" />
-          <Navbar.Collapse id="basic-navbar-nav justify-content-end">
-            <Nav className="me-auto">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav ">
+          
+          </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-end pl-7">
+                <Navbar.Text class="text-white">
+                  <Nav className="me-auto text-red align-items-end pl-7">
               <Nav.Link href="#home"><p class="text-white pt-3">INICIO</p></Nav.Link>
               <Nav.Link href="#clubes"><p class="text-white pt-3">CLUBES</p></Nav.Link>
               <Nav.Link href="#jugadores"><p class="text-white pt-3">JUGADORES</p></Nav.Link>
               <Nav.Link href="#predicciones"><p class="text-white pt-3">PREDICCIONES</p> </Nav.Link>
             </Nav>
-          </Navbar.Collapse>
-          <Navbar.Collapse className="justify-content-end pl-7">
-                <Navbar.Text class="text-white">
-                  Signed: <a href="#login" class="text-white">Luis Waybell</a>
                 </Navbar.Text>
               </Navbar.Collapse>
         </Container>
