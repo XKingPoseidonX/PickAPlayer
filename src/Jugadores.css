@@ -1,0 +1,38 @@
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100vh-86px);
+    margin-top: 50px;
+}
+
+.Container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: calc(100vh-86px);
+    margin-top: 30px;
+}
+
+.information {
+    padding-top: 10px;
+    text-align: justify;
+    color: rgb(102, 92, 92);
+
+}
+
+.title {
+    justify-content: left;
+    text-align: left;
+    font-family: 'Bruno Ace SC';
+    font-size: 45px;
+    margin-top: 30px;
+    color: #212529;
+}
+
+.name {
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,291 @@
+[
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b05c"
+        },
+        "Fecha": "07/01/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Victoria",
+        "GF": 1,
+        "GC": 0,
+        "Adversario": "Monterrey",
+        "xG": 0.4,
+        "xGA": 2.2,
+        "Posesión del balón": 37
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b05d"
+        },
+        "Fecha": "13/01/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Viernes",
+        "Sedes": "Visitante",
+        "Resultado": "Empate",
+        "GF": 0,
+        "GC": 0,
+        "Adversario": "Atlético de San Luis",
+        "xG": 0.5,
+        "xGA": 0.5,
+        "Posesión del balón": 69
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b05e"
+        },
+        "Fecha": "21/01/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Local",
+        "Resultado": "Derrota",
+        "GF": 1,
+        "GC": 2,
+        "Adversario": "Toluca",
+        "xG": 1.1,
+        "xGA": 1.5,
+        "Posesión del balón": 46
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b05f"
+        },
+        "Fecha": "28/01/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 1,
+        "Adversario": "FC Juárez",
+        "xG": 1.9,
+        "xGA": 1.6,
+        "Posesión del balón": 35
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b060"
+        },
+        "Fecha": "05/02/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Domingo",
+        "Sedes": "Local",
+        "Resultado": "Empate",
+        "GF": 1,
+        "GC": 1,
+        "Adversario": "Querétaro",
+        "xG": 1.2,
+        "xGA": 0.7,
+        "Posesión del balón": 58
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b061"
+        },
+        "Fecha": "11/02/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Empate",
+        "GF": 1,
+        "GC": 1,
+        "Adversario": "Pachuca",
+        "xG": 1.3,
+        "xGA": 1.1,
+        "Posesión del balón": 48
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b062"
+        },
+        "Fecha": "15/02/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Miércoles",
+        "Sedes": "Local",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 1,
+        "Adversario": "Tijuana",
+        "xG": 2.2,
+        "xGA": 1,
+        "Posesión del balón": 57
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b063"
+        },
+        "Fecha": "18/02/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 1,
+        "Adversario": "UNAM",
+        "xG": 0.8,
+        "xGA": 2.7,
+        "Posesión del balón": 41
+    },
+    {
+        "_id": {
+            "$oid": "6457067e369288b59655b064"
+        },
+        "Fecha": "25/02/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 1,
+        "Adversario": "UANL",
+        "xG": 0.9,
+        "xGA": 1.8,
+        "Posesión del balón": 34
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b06e"
+        },
+        "Fecha": "04/03/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Local",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 0,
+        "Adversario": "Santos",
+        "xG": 1.1,
+        "xGA": 0.8,
+        "Posesión del balón": 42
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b06f"
+        },
+        "Fecha": "10/03/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Viernes",
+        "Sedes": "Visitante",
+        "Resultado": "Derrota",
+        "GF": 0,
+        "GC": 1,
+        "Adversario": "Puebla",
+        "xG": 1.7,
+        "xGA": 1.1,
+        "Posesión del balón": 60
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b070"
+        },
+        "Fecha": "18/03/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Local",
+        "Resultado": "Derrota",
+        "GF": 2,
+        "GC": 4,
+        "Adversario": "América",
+        "xG": 1.6,
+        "xGA": 1.4,
+        "Posesión del balón": 48
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b071"
+        },
+        "Fecha": "01/04/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Empate",
+        "GF": 3,
+        "GC": 3,
+        "Adversario": "Atlas",
+        "xG": 1.6,
+        "xGA": 2.2,
+        "Posesión del balón": 43
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b072"
+        },
+        "Fecha": "08/04/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Local",
+        "Resultado": "Victoria",
+        "GF": 1,
+        "GC": 0,
+        "Adversario": "Necaxa",
+        "xG": 1.6,
+        "xGA": 0.9,
+        "Posesión del balón": 57
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b073"
+        },
+        "Fecha": "15/04/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Visitante",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 0,
+        "Adversario": "León",
+        "xG": 1.7,
+        "xGA": 1.5,
+        "Posesión del balón": 45
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b074"
+        },
+        "Fecha": "22/04/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Local",
+        "Resultado": "Victoria",
+        "GF": 2,
+        "GC": 1,
+        "Adversario": "Cruz Azul",
+        "xG": 1,
+        "xGA": 0.7,
+        "Posesión del balón": 48
+    },
+    {
+        "_id": {
+            "$oid": "6457087d369288b59655b075"
+        },
+        "Fecha": "29/04/2023",
+        "Competencia": "Liga MX",
+        "Ronda": "Clausura 2023 Regular Season",
+        "Día": "Sábado",
+        "Sedes": "Local",
+        "Resultado": "Victoria",
+        "GF": 4,
+        "GC": 1,
+        "Adversario": "Mazatlán",
+        "xG": 0.9,
+        "xGA": 0.8,
+        "Posesión del balón": 54
+    }
+]
