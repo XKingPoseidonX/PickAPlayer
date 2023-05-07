@@ -4,29 +4,31 @@ import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Jugadores.css';
 import Container from 'react-bootstrap/Container';
-
+import { Link } from 'react-router-dom';
 
 function GridExample() {
   return (
     <div className='container'>
       <h3 className='title'><b>JUGADORES</b></h3>
       <Row xs={1} md={3} className="g-15">
-        {Array.from({ length: 8 }).map((_, idx) => (
+        {Array.from({ length: 6}).map((_, idx) => (
           <div Class="Container-2">
             <Col>
               <Card>
                 <Card.Body>
-                  <Container>
+                  <Container Link to={`/Jugadores/Jugador`}>
                     <Row>
                       <Col>
+                      <Link to={`/Jugadores/Jugador`}>
                         <img
                           src="../img/man.png"
                           width="30"
                           height="30"
                           className="d-inline-block align-top"
                         />
+                      </Link>
                       </Col>
-                      <Col Class="name">Card Title</Col>
+                      <Col Class="name"> Card Title</Col>
                       <Col>
                         <img
                           src="../img/flag.png"
@@ -37,7 +39,6 @@ function GridExample() {
                       </Col>
                     </Row>
                   </Container>
-
                   <Card.Text Class="information">
                     This is a longer card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit

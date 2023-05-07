@@ -9,7 +9,6 @@ import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
 
 
-
 function GridExample() {
     const mystyle = {
         color: "white",
@@ -27,11 +26,7 @@ function GridExample() {
     return (
 
         <Container fluid>
-            <Nav>
-                <Link to="#">Home</Link>
-                <Link to="/BestClubes">Clubes</Link>
-                <Link to="/BestPlayer">Jugadores</Link>
-            </Nav>
+            
             <Row style={centrado}>
                 <Col >
 

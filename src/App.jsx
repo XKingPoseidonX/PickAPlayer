@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import BestClubes from "./BestClubes";
 import Jugadores from "./Jugadores";
+import Jugador from "./Jugador";
 import Predicciones from "./Predicciones";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -56,6 +57,7 @@ function App() {
         <Routes>
           <Route index element={<BestClubes />} />
           <Route path="/Jugadores" element={<Jugadores />} />
+          <Route path="/Jugadores/Jugador" element={<Jugador />} />
           <Route path="/BestClubes" element={<BestClubes />} />
           <Route path="/BestPlayer" element={<BestClubes />} />
           <Route path="/Predicciones" element={<Predicciones />} />
